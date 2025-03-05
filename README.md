@@ -10,12 +10,14 @@ Vscode套件:
 - Pylint
 - Python Debugger
 - Ruff
+- Pylance
+
 ## 安裝Python
 安裝最新(https://www.python.org/downloads/)  
 要注意記得勾選安裝環境變數  
 會連同pip一起安裝  
 安裝完畢後開啟cmd`搜尋那邊打cmd`  
-```cmd 
+``` 
 python
 ```
 會顯示目前安裝的Python版本
@@ -35,4 +37,36 @@ pip --version
 ```
 python -m venv 自定義名稱
 ```
+
 ![cmd-venv](https://github.com/rgatsai/Python-VS-Code-/blob/main/image/cmd-venv.png)
+### 啟動virtual environments
+activate.bat存放於scripts\activate.bat
+```
+test\scripts\activate.bat
+```
+但我們會用VS Code來開啟虛擬環境，  
+所以這個學會就好。
+## VS Code架設環境
+隨便新增一個python的檔案  
+這邊以test.py為例  
+**很重要，以下都要用.py檔案作測試**
+打開VS Code，先去安裝延伸模組，總共要裝三個東西(如果不會安裝再提問)
+- Pylint
+- Python Debugger
+- Ruff
+- Pylance
+
+安裝完畢後，左下角齒輪設定點開，右上角開啟json編輯    
+這是Preferences: Open User Settings可以設置環境的地方  
+請設置的跟我一樣，[setting.json](https://github.com/rgatsai/Python-VScode/blob/main/settings.json)  
+
+![vscode-setting](https://github.com/rgatsai/Python-VScode/blob/main/image/vscode-setting.png)
+
+儲存重開VS Code  
+如何確認環境設定成功?  
+簡單的執行print("Hello World")後，確認終端機的環境是在venv的路徑下剛剛建置的環境   
+例:test/scripts/python
+
+![vscode-setting2](https://github.com/rgatsai/Python-VScode/blob/main/image/vscode-setting2.png)
+
+若之後需要使用不同版本的python，再教各位如何切換多個虛擬環境 :nerd_face:
