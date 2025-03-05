@@ -1,0 +1,19 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    },
+    "python.venvPath": "D:\\python_venv\\test",     //指定要使用的虛擬環境，會自動搜尋資料夾中的python
+    "python.terminal.activateEnvironment": true,    //終端機自動使用上方venvpath路徑中的python虛擬環境
+    "[python]": { //針對python ruff的設定
+        "editor.defaultFormatter": "charliermarsh.ruff",    //強制ruff格式
+        "editor.formatOnSave": true,    //儲存後自動格式化
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",   //儲存時自動修復程式
+            "source.organizeImports.ruff": "explicit"   //儲存時整理import
+        },
+    },
+    "pylint.enabled": true, //pylint確定開啟
+    "files.trimTrailingWhitespace": true,   //自動刪除尾端空白
+    "workbench.colorTheme": "One Dark Pro",     //這個是佈景主題 看個人喜好
+}
