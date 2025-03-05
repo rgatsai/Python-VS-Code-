@@ -62,6 +62,10 @@ test\scripts\activate.bat
 這是Preferences: Open User Settings可以設置環境的地方  
 請設置的跟我一樣，[setting.json](https://github.com/rgatsai/Python-VScode/blob/main/settings.json)  
 
+"github.copilot.advanced": {  
+"authProvider": "github"  
+},(這段不要)  
+
 ![vscode-setting](https://github.com/rgatsai/Python-VScode/blob/main/image/vscode-setting.png)
 
 儲存重開VS Code  
