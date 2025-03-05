@@ -1,0 +1,19 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    },
+    "python.venvPath": "D:\\python_venv\\test",
+    "python.terminal.activateEnvironment": true,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit"
+        },
+    },
+    "pylint.enabled": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "One Dark Pro",
+}
