@@ -56,7 +56,9 @@ test\scripts\activate.bat
 - Ruff
 - Pylance
 
-安裝完畢後，左下角齒輪設定點開，右上角開啟json編輯    
+如果有成功安裝Pylint，你的程式碼會出現毛毛蟲(因為python排版較嚴謹)，代表安裝成功  
+如果有成功安裝Python Debugger 就可以下中斷點偵錯  
+安裝完畢後，左下角齒輪點開-設定，右上角開啟設定json編輯    
 這是Preferences: Open User Settings可以設置環境的地方  
 請設置的跟我一樣，[setting.json](https://github.com/rgatsai/Python-VScode/blob/main/settings.json)  
 
@@ -64,9 +66,16 @@ test\scripts\activate.bat
 
 儲存重開VS Code  
 如何確認環境設定成功?  
-簡單的執行print("Hello World")後，確認終端機的環境是在venv的路徑下剛剛建置的環境   
+執行print("Hello World")後，確認終端機的環境是在venv的路徑下剛剛建置的環境   
 例:test/scripts/python
 
 ![vscode-setting2](https://github.com/rgatsai/Python-VScode/blob/main/image/vscode-setting2.png)
 
+記得剛剛設置的Ruff嗎?這邊輸入很醜的程式碼如下:  
+```
+a= 1
+b =2
+c=a+b
+```
+`ctrl+s`儲存後能夠自動排版代表Ruff執行成功  
 若之後需要使用不同版本的python，再教各位如何切換多個虛擬環境 :nerd_face:
