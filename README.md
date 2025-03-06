@@ -70,7 +70,13 @@ test\scripts\activate.bat
 
 ![vscode-setting](https://github.com/rgatsai/Python-VScode/blob/main/image/vscode-setting.png)
 
-儲存重開VS Code  
+儲存重開VS Code    
+然後快捷鍵`ctrl+shift+p`，輸入python select interpreter 找到我們剛剛創建的虛擬環境裡的python  
+(選後面藍字是venv的)  
+手動設定這一次就好，設定完後重啟終端機(你的終端機會有黃色驚嘆號，跟著提示重啟)
+
+![select interpreter](https://github.com/rgatsai/Python-VScode/blob/main/image/vscode-select-interpreter.jpg)
+
 如何確認環境設定成功?  
 執行print("Hello World")後，確認終端機的環境是在venv的路徑下剛剛建置的環境   
 例:test/scripts/python
