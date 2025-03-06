@@ -30,7 +30,7 @@ pip --version
 ![cmd-python](https://github.com/rgatsai/Python-VS-Code-/blob/main/image/cmd-python-pip.png)
 
 ## Venv
-如何只用venv建立virtual environments  
+如何使用venv建立virtual environments  
 首先，創建一個資料夾(存放Venv的地方)  
 然後在那個資料夾路徑下開啟cmd(在資料夾上方搜尋的地方輸入cmd按enter)  
 在cmd輸入以下程式碼  
