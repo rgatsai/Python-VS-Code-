@@ -50,7 +50,7 @@ test\scripts\activate.bat
 隨便新增一個python的檔案  
 這邊以test.py為例  
 **很重要，以下都要用.py檔案作測試**
-打開VS Code，先去安裝延伸模組，總共要裝三個東西(如果不會安裝再提問)
+打開VS Code，先去安裝延伸模組，總共要裝以下套件(如果不會安裝再提問)
 - Pylint
 - Python Debugger
 - Ruff
