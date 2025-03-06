@@ -66,6 +66,8 @@ test\scripts\activate.bat
 "authProvider": "github"  
 },(這段不要)  
 
+"python.venvPath": "D:\\python_venv\\test",記得使用自己的路徑  
+
 ![vscode-setting](https://github.com/rgatsai/Python-VScode/blob/main/image/vscode-setting.png)
 
 儲存重開VS Code  
